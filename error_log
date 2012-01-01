@@ -1,0 +1,153 @@
+[20-Aug-2011 20:03:31] CSRF state token does not match one provided.
+[20-Aug-2011 20:03:42] OAuthException: Error validating access token: The session is invalid because the user logged out.
+[20-Aug-2011 20:04:38] PHP Warning:  require(../src/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 3
+[20-Aug-2011 20:04:38] PHP Warning:  require(../src/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 3
+[20-Aug-2011 20:04:38] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../src/facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/index.php on line 3
+[20-Aug-2011 20:04:54] CSRF state token does not match one provided.
+[20-Aug-2011 20:05:16] CSRF state token does not match one provided.
+[20-Aug-2011 20:46:43] PHP Warning:  require(../src/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 18
+[20-Aug-2011 20:46:43] PHP Warning:  require(../src/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 18
+[20-Aug-2011 20:46:43] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../src/facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/index.php on line 18
+[20-Aug-2011 20:46:54] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/david/public_html/library/facebook/base_facebook.php on line 494
+[20-Aug-2011 20:47:04] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in /home/david/public_html/library/facebook/base_facebook.php on line 494
+[20-Aug-2011 20:50:41] CSRF state token does not match one provided.
+[20-Aug-2011 20:51:01] CSRF state token does not match one provided.
+[20-Aug-2011 20:51:42] CSRF state token does not match one provided.
+[20-Aug-2011 20:51:48] CSRF state token does not match one provided.
+[20-Aug-2011 20:57:49] CSRF state token does not match one provided.
+[20-Aug-2011 20:58:14] CSRF state token does not match one provided.
+[20-Aug-2011 21:26:38] PHP Warning:  require_once(OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:26:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:29:55] PHP Warning:  require_once(../oauth/OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:29:55] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../oauth/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:30:31] PHP Warning:  require_once(/library/oauth/OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:30:31] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/library/oauth/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:31:09] PHP Warning:  require_once(../oauth/OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:31:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../oauth/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:31:10] PHP Warning:  require_once(../oauth/OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:31:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../oauth/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:31:45] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/david/public_html/index.php:2) in /home/david/public_html/library/facebook/facebook.php on line 37
+[20-Aug-2011 21:32:44] PHP Parse error:  syntax error, unexpected '[' in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:33:03] PHP Warning:  require_once(/home/david/public_htmllibrary/oauth/OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 21:33:03] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/david/public_htmllibrary/oauth/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/linkedin/linkedin_3.1.1.class.php on line 102
+[20-Aug-2011 22:06:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 130
+[20-Aug-2011 22:13:16] CSRF state token does not match one provided.
+[20-Aug-2011 22:13:17] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 77
+[20-Aug-2011 22:13:29] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 77
+[20-Aug-2011 22:13:31] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 77
+[20-Aug-2011 22:13:44] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 86
+[20-Aug-2011 22:13:52] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 86
+[20-Aug-2011 22:13:58] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 86
+[20-Aug-2011 22:16:17] PHP Fatal error:  Call to a member function AuthenticationLink() on a non-object in /home/david/public_html/index.php on line 56
+[20-Aug-2011 22:17:30] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 95
+[20-Aug-2011 22:17:58] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 95
+[20-Aug-2011 22:18:19] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 95
+[20-Aug-2011 22:18:30] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 95
+[20-Aug-2011 22:19:27] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 99
+[20-Aug-2011 22:19:41] CSRF state token does not match one provided.
+[20-Aug-2011 22:19:41] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 99
+[20-Aug-2011 22:19:56] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 99
+[20-Aug-2011 22:21:43] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 91
+[20-Aug-2011 22:22:01] CSRF state token does not match one provided.
+[20-Aug-2011 22:22:01] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 91
+[20-Aug-2011 22:22:40] PHP Parse error:  syntax error, unexpected '<' in /home/david/public_html/index.php on line 92
+[20-Aug-2011 22:22:51] CSRF state token does not match one provided.
+[20-Aug-2011 22:22:51] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 92
+[20-Aug-2011 22:23:24] CSRF state token does not match one provided.
+[20-Aug-2011 22:23:25] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 92
+[20-Aug-2011 22:23:41] CSRF state token does not match one provided.
+[20-Aug-2011 22:23:41] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 92
+[20-Aug-2011 22:24:10] CSRF state token does not match one provided.
+[20-Aug-2011 22:24:32] CSRF state token does not match one provided.
+[20-Aug-2011 22:25:58] CSRF state token does not match one provided.
+[20-Aug-2011 22:26:14] CSRF state token does not match one provided.
+[20-Aug-2011 22:26:41] CSRF state token does not match one provided.
+[20-Aug-2011 22:27:03] CSRF state token does not match one provided.
+[20-Aug-2011 22:27:18] CSRF state token does not match one provided.
+[20-Aug-2011 22:28:03] CSRF state token does not match one provided.
+[20-Aug-2011 22:29:23] CSRF state token does not match one provided.
+[20-Aug-2011 22:29:44] CSRF state token does not match one provided.
+[20-Aug-2011 22:30:32] CSRF state token does not match one provided.
+[20-Aug-2011 22:30:44] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:30:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 87
+[20-Aug-2011 22:30:47] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:30:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 87
+[20-Aug-2011 22:30:51] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:30:56] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:30:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 87
+[20-Aug-2011 22:31:07] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:31:15] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:31:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 87
+[20-Aug-2011 22:35:42] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 100
+[20-Aug-2011 22:36:29] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 101
+[20-Aug-2011 22:36:47] PHP Warning:  Invalid argument supplied for foreach() in /home/david/public_html/index.php on line 102
+[20-Aug-2011 22:37:32] CSRF state token does not match one provided.
+[20-Aug-2011 22:37:50] CSRF state token does not match one provided.
+[20-Aug-2011 22:38:13] CSRF state token does not match one provided.
+[20-Aug-2011 22:38:34] CSRF state token does not match one provided.
+[20-Aug-2011 22:38:45] CSRF state token does not match one provided.
+[20-Aug-2011 22:39:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 87
+[20-Aug-2011 22:43:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/includes/linkedin_connect.php on line 104
+[20-Aug-2011 22:45:43] CSRF state token does not match one provided.
+[27-Aug-2011 08:48:26] PHP Warning:  Division by zero in /home/david/public_html/index.php on line 52
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 52
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 52
+[27-Aug-2011 08:48:26] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php’' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/index.php on line 52
+[27-Aug-2011 08:48:26] PHP Warning:  Division by zero in /home/david/public_html/index.php on line 53
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 53
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 53
+[27-Aug-2011 08:48:26] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php’' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/index.php on line 53
+[27-Aug-2011 08:48:26] PHP Warning:  Division by zero in /home/david/public_html/index.php on line 54
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 54
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 54
+[27-Aug-2011 08:48:26] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php’' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/index.php on line 54
+[27-Aug-2011 08:48:26] PHP Warning:  Division by zero in /home/david/public_html/index.php on line 55
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 55
+[27-Aug-2011 08:48:26] PHP Warning:  include(php’) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/david/public_html/index.php on line 55
+[27-Aug-2011 08:48:26] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php’' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/index.php on line 55
+[27-Aug-2011 08:48:26] PHP Fatal error:  Class 'EpiTwitter' not found in /home/david/public_html/index.php on line 57
+[27-Aug-2011 08:49:57] PHP Parse error:  syntax error, unexpected T_STRING in /home/david/public_html/index.php on line 83
+[27-Aug-2011 08:50:16] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/david/public_html/index.php on line 104
+[27-Aug-2011 08:50:57] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/david/public_html/index.php on line 91
+[27-Aug-2011 08:51:16] PHP Catchable fatal error:  Object of class EpiOAuthResponse could not be converted to string in /home/david/public_html/library/foursquare/class.foursquare.php on line 162
+[27-Aug-2011 09:04:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/david/public_html/index.php:14) in /home/david/public_html/index.php on line 65
+[27-Aug-2011 09:04:31] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:11:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/david/public_html/index.php:10) in /home/david/public_html/library/facebook/facebook.php on line 37
+[27-Aug-2011 09:11:38] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:11:55] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/david/public_html/index.php:10) in /home/david/public_html/library/facebook/facebook.php on line 37
+[27-Aug-2011 09:13:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/david/public_html/index.php:10) in /home/david/public_html/includes/linkedin_connect.php on line 15
+[27-Aug-2011 09:15:46] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/david/public_html/includes/linkedin_connect.php on line 219
+[27-Aug-2011 09:15:46] PHP Parse error:  syntax error, unexpected T_STRING in /home/david/public_html/includes/linkedin_connect.php on line 219
+[27-Aug-2011 09:17:50] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/david/public_html/index.php:10) in /home/david/public_html/includes/twitter_connect.php on line 3
+[27-Aug-2011 09:17:51] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:20:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/david/public_html/index.php:10) in /home/david/public_html/includes/twitter_connect.php on line 3
+[27-Aug-2011 09:20:51] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:21:09] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:21:14] PHP Warning:  require(/library/twitter/twitteroauth.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/david/public_html/twitter_oauth.php on line 2
+[27-Aug-2011 09:21:14] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/library/twitter/twitteroauth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/twitter_oauth.php on line 2
+[27-Aug-2011 09:21:45] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:21:51] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:22:14] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:23:20] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:26:39] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:29:19] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:31:44] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:32:08] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:32:13] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:35:07] PHP Parse error:  syntax error, unexpected '<' in /home/david/public_html/includes/twitter_connect.php on line 47
+[27-Aug-2011 09:35:42] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:35:48] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:36:06] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:36:13] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:38:41] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:42:00] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:42:23] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:42:33] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:44:31] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:44:40] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:44:48] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:45:05] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:45:13] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:46:23] PHP Fatal error:  Cannot redeclare class OAuthException in /home/david/public_html/library/oauth/OAuth.php on line 8
+[27-Aug-2011 09:47:26] PHP Warning:  require_once(../oauth/OAuth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/david/public_html/library/twitter/twitteroauth.php on line 10
+[27-Aug-2011 09:47:26] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../oauth/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/david/public_html/library/twitter/twitteroauth.php on line 10
