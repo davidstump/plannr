@@ -26,9 +26,10 @@
                                             echo "title: '" . addslashes($birthday['name']) . "\'s Birthday',";
                                             echo "start: new Date('" . $birthday['birthday'] . "')";
                                             echo "}";
-                                            if (!$i == $birthdaynum - 1) {
+                                            if ($i < ($birthdaynum - 1)) {
                                                echo ",";
                                             }
+                                            $i++;
                                         }
                                         if (count($events) > 0) {
                                             echo ",";
