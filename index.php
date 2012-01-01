@@ -27,10 +27,11 @@
                                             echo "start: new Date('" . $birthday['birthday'] . "')";
                                             echo "}";
                                             if (!$i == $birthdaynum - 1) {
-                                                if (count($events) > 0) {
-                                                    echo ",";
-                                                }
+                                               echo ",";
                                             }
+                                        }
+                                        if (count($events) > 0) {
+                                            echo ",";
                                         }
                                     ?>
                                     <?php
