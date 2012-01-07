@@ -1,5 +1,5 @@
 <?php
-
+require 'functions.php';
 require 'library/facebook/facebook.php';
 
 $facebook = new Facebook(array(
@@ -14,7 +14,12 @@ if ($user) {
   try {
     // Proceed knowing you have a logged in user who's authenticated.
     $rawevents = $facebook->api('/me/events');
-    $friends = $facebook->api('me/friends?fields=id,name,birthday,picture,link');
+    $friends = $facebook->api('me/friends?fields=id,name,birthday,picture,link,events');
+    sortFacebookFriendsArray($friends['data']);
+    //echo "<pre style='text-align: left;'>" . print_r($friends, 1) . "</pre>";
+    if (isset($_GET['id'])) {
+        $user_rawevents = $facebook->api('/' . $_GET['id'] . '/events');
+    }
   } catch (FacebookApiException $e) {
     echo '<pre>'.htmlspecialchars(print_r($e, true)).'</pre>';
     $user = null;
@@ -24,36 +29,16 @@ if ($user) {
 ?>
 <?php if ($user) { ?>
     <?php
-        if (count($rawevents) > 0) {
-            $events = array();
-            foreach ($rawevents['data'] as $event) {
-                $startdate = str_replace("T", "-", $event['start_time']);
-                list($year, $month, $day, $time) = explode('-', $startdate);
-                $start = $month . " " . $day . ", " . $year . " " . $time;
-                $enddate = str_replace("T", "-", $event['end_time']);
-                list($year, $month, $day, $time) = explode('-', $enddate);
-                $end = $month . " " . $day . ", " . $year . " " . $time;
-                $events[$event['id']]['name'] = $event['name'];
-                $events[$event['id']]['start'] = $start;
-                $events[$event['id']]['end'] = $end;
-            }
+        $events = getEvents($rawevents);
+        if (isset($_GET['id'])) {
+            $events = getEvents($user_rawevents);
         }
         //convert birthday info into usable array and sort out unusable or nonexistant birthdays
-        $birthdays = array();
-        foreach($friends['data'] as $friend) {
-            $date = $friend['birthday'];
-            $date_parts = preg_split("/[\/]+/", $date);
-            if (isset($friend['birthday']) && count($date_parts) >= 2) {
-                $birthdate = $date_parts[0] . "/" . $date_parts[1] . "/" . date('Y');
-                $birthdays[$friend['id']]['name'] = $friend['name'];
-                $birthdays[$friend['id']]['birthday'] = $birthdate;
-                $birthdays[$friend['id']]['picture'] = $friend['picture'];
-            }
-        }
+        $birthdays = getBirthdays($friends);
         
     ?>
 <?php } else { ?>
-      <fb:login-button scope="user_events, email, friends_birthday"></fb:login-button>
+      <fb:login-button scope="friends_events,user_events, email, friends_birthday"></fb:login-button>
 <?php } ?>
     <div id="fb-root"></div>
     <script>

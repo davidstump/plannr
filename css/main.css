@@ -18,4 +18,11 @@ body {
     margin: 0 auto;
 }
 
+#friend_selector {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 38px;
+    text-align: right;
+}
+
 
