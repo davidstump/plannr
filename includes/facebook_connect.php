@@ -7,6 +7,8 @@ $facebook = new Facebook(array(
   'secret' => 'be0d3c92369b79084f97d7025b384049',
 ));
 
+$access_token = $facebook->getAccessToken();
+
 // See if there is a user from a cookie
 $user = $facebook->getUser();
 
@@ -38,7 +40,7 @@ if ($user) {
         
     ?>
 <?php } else { ?>
-      <fb:login-button scope="friends_events,user_events, email, friends_birthday"></fb:login-button>
+      <fb:login-button scope="friends_events,user_events, email, friends_birthday, create_event, rsvp_event"></fb:login-button>
 <?php } ?>
     <div id="fb-root"></div>
     <script>
