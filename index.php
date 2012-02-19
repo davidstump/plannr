@@ -85,7 +85,7 @@
                                 $.ajax({
                                    type: 'POST',
                                    url: 'https://graph.facebook.com/me/events?access_token=<?php echo $access_token ?>',
-                                   data: 'name=' + $("#name").val() + '&start_time=' + $("#date-start").val() + " " + $("#time-start").val() + '&end_time=' + $("#date-end").val() + " " + $("#time-end").val(),
+                                   data: 'name=' + $("#name").val() + '&start_time=' + $("#date-start").val() + " " + $("#time-start").val() + '&end_time=' + $("#date-end").val() + " " + $("#time-end").val() + '&description=' + $("#description").val(),
                                    success: function(msg) {
                                        //all done. woot.
                                    }
