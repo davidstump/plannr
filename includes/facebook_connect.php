@@ -1,5 +1,4 @@
 <?php
-require 'functions.php';
 require 'library/facebook/facebook.php';
 
 $facebook = new Facebook(array(
@@ -12,10 +11,15 @@ $access_token = $facebook->getAccessToken();
 // See if there is a user from a cookie
 $user = $facebook->getUser();
 
+require 'functions.php';
+
 if ($user) {
   try {
     // Proceed knowing you have a logged in user who's authenticated.
-    $rawevents = $facebook->api('/me/events');
+    //$rawevents = $facebook->api('/me/events');
+    $eventfql = "https://graph.facebook.com/fql?q=SELECT+eid,pic_big,name,description,start_time,end_time,venue+FROM+event+WHERE+eid+IN+(+SELECT+eid+FROM+event_member+WHERE+uid=me()+)&access_token=" . $access_token;
+    $eventresult = file_get_contents($eventfql);
+    $rawevents = json_decode($eventresult, true);
     $friends = $facebook->api('me/friends?fields=id,name,birthday,picture,link,events');
     sortFacebookFriendsArray($friends['data']);
     //echo "<pre style='text-align: left;'>" . print_r($friends, 1) . "</pre>";

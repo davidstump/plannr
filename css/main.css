@@ -29,4 +29,18 @@ body {
     text-align: left;
 }
 
+#birthday-dialog, #event-dialog {
+    display: none;
+}
+
+#birthday-picture, #event-picture {
+    float: left;
+    margin: 10px;
+}
+
+#birthday-date {
+    font-size: 16px;
+}
+
+
 
