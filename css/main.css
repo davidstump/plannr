@@ -42,5 +42,20 @@ body {
     font-size: 16px;
 }
 
+.faded {
+    opacity: 0.7;
+}
+
+#toggles {
+    text-align: left;
+    margin-left: 57px;
+    margin-bottom: 15px;
+}
+
+#facebook {
+    width: 1020px;
+    margin: auto;
+    text-align: center;
+}
 
 

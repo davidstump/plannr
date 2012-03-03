@@ -3,6 +3,11 @@
     <div id="facebook">
       <p><?php require_once('includes/facebook_connect.php'); ?></p>
       <?php if ($user) { ?>
+      <div id="toggles">
+        <button id="toggleBirthdays">Birthdays</button>
+        <button id="toggleEvents">Events</button>
+        <button id="toggleConfirmed">Confirmed Events</button>
+      </div>
         <script type='text/javascript'>
             <?php include("js/calendar.js"); ?>
         </script>

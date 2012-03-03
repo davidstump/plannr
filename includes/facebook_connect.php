@@ -4,13 +4,13 @@ require 'library/facebook/facebook.php';
 $facebook = new Facebook(array(
   'appId'  => '278480032169335',
   'secret' => 'be0d3c92369b79084f97d7025b384049',
+  'fileUpload' => true
 ));
 
 $access_token = $facebook->getAccessToken();
 
 // See if there is a user from a cookie
 $user = $facebook->getUser();
-
 require 'functions.php';
 
 if ($user) {
@@ -27,7 +27,6 @@ if ($user) {
         $user_rawevents = $facebook->api('/' . $_GET['id'] . '/events');
     }
   } catch (FacebookApiException $e) {
-    echo '<pre>'.htmlspecialchars(print_r($e, true)).'</pre>';
     $user = null;
   }
 }
@@ -44,7 +43,7 @@ if ($user) {
         
     ?>
 <?php } else { ?>
-      <fb:login-button scope="friends_events,user_events, email, friends_birthday, create_event, rsvp_event"></fb:login-button>
+      <fb:login-button scope="publish_stream,friends_events,user_events, email, friends_birthday, create_event, rsvp_event"></fb:login-button>
 <?php } ?>
     <div id="fb-root"></div>
     <script>
