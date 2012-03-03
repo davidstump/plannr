@@ -6,6 +6,7 @@ $(document).ready(function() {
         var y = date.getFullYear();
 
         var calendar = $('#calendar').fullCalendar({
+                disableDragging: true,
                 header: {
                         left: 'prev,next today',
                         center: 'title',
@@ -28,6 +29,7 @@ $(document).ready(function() {
                             foreach ($birthdays as $birthday) {
                                 echo "{";
                                 echo "id: '" . $birthday['id'] . "',";
+                                echo "className: 'birthday',";
                                 echo "title: '" . addslashes($birthday['name']) . "\'s Birthday',";
                                 echo "start: new Date('" . $birthday['birthday'] . "'),";
                                 echo "type: 'birthday',";
@@ -55,12 +57,15 @@ $(document).ready(function() {
                                 echo $event['rsvp_status'];
                                 if ($event['rsvp'] == "attending") {
                                     echo "color: 'green',";
+                                    echo "className: 'confirmed-event',";
                                 } else if ($event['rsvp'] == "declined") {
                                     echo "color: 'grey',";
                                     echo "textColor: 'black',";
+                                    echo "className: 'event',";
                                 } else {
                                     echo "color: 'yellow',";
                                     echo "textColor: 'black',";
+                                    echo "className: 'event',";
                                 }
                                 echo "allDay: false,";
                                 echo "type: 'event',";
