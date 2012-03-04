@@ -44,7 +44,10 @@
             </form>
         </div>
         <div id='calendar'></div>
-        <div id="footer"><img src="images/inner-footer.jpg" alt="footer" border="0" /></div>
+        <div id="footer">
+            <div id="left">&COPY; Copyright David Stump &amp; Curtis Estridge</div>
+            <div id="right"><a href="mailto:david@davidstump.net">Contact</a></div>
+        </div>
         <?php include("includes/dialogs.php"); ?>
         <?php } ?>
     </div>
