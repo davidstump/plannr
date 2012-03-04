@@ -44,7 +44,9 @@ $(document).ready(function() {
                                 echo "start: new Date('" . $birthday['birthday'] . "'),";
                                 echo "type: 'birthday',";
                                 echo "picture: '" . $birthday['picture'] . "',";
-                                echo "birthday: '" . $birthday['birthday'] . "'";
+                                echo "birthday: '" . $birthday['birthday'] . "',";
+                                echo "color: '#00a1cb',";
+                                echo "textColor: '#014f66'";
                                 echo "}";
                                 if ($i < ($birthdaynum - 1)) {
                                    echo ",";
@@ -66,15 +68,16 @@ $(document).ready(function() {
                                 echo "end: new Date('" . $event['end'] . "'),";
                                 echo $event['rsvp_status'];
                                 if ($event['rsvp'] == "attending") {
-                                    echo "color: 'green',";
+                                    echo "color: '#85c900',";
+                                    echo "textColor: '#557f00',";
                                     echo "className: 'confirmed-event',";
                                 } else if ($event['rsvp'] == "declined") {
-                                    echo "color: 'grey',";
-                                    echo "textColor: 'black',";
+                                    echo "color: '#e5e5e5',";
+                                    echo "textColor: '#727272',";
                                     echo "className: 'event',";
                                 } else {
-                                    echo "color: 'yellow',";
-                                    echo "textColor: 'black',";
+                                    echo "color: '#cfd102',";
+                                    echo "textColor: '#838301',";
                                     echo "className: 'event',";
                                 }
                                 echo "allDay: false,";

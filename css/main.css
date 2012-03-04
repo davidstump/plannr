@@ -7,15 +7,22 @@
 */
 
 body {
-    margin-top: 40px;
+    background-color: #00a7d1;
+    margin-top: 0px;
+    padding-top: 0px;
     text-align: center;
     font-size: 14px;
     font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 }
 
+body.loggedin {
+    background-color: #f3f3f3;
+}
+
 #calendar {
     width: 900px;
     margin: 0 auto;
+    padding-bottom: 35px;
 }
 
 #friend_selector {
@@ -48,14 +55,57 @@ body {
 
 #toggles {
     text-align: left;
-    margin-left: 57px;
     margin-bottom: 15px;
+    top: -29px;
+    position: relative;
+    z-index: 99;
+}
+
+#toggles button {
+    background: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 #facebook {
-    width: 1020px;
+    width: 1220px;
     margin: auto;
     text-align: center;
+    position: relative;
 }
 
+.loggedin #facebook {
+    width: 980px;
+}
 
+.loggedin #facebook {
+    background: #FFF;
+    margin-top: 53px;
+}
+
+#fakeFB {
+    height: 35px;
+    width: 170px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    left: 42%;
+    top: 472px;
+    margin-left: 15px;
+}
+
+.fc-header-right {
+    position: relative;
+    z-index: 99;
+    top: -76px;
+    right: -40px;
+}
+
+#footer {
+    height: 72px;
+}
+
+.fc-event-time, .fc-event-title {
+    font-weight: bold;
+}

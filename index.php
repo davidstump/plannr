@@ -1,12 +1,15 @@
 <?php require_once 'includes/template/header.php'; ?>
 
     <div id="facebook">
-      <p><?php require_once('includes/facebook_connect.php'); ?></p>
+      <?php require_once('includes/facebook_connect.php'); ?>
       <?php if ($user) { ?>
+        <script>
+               $("body").removeClass("loggedout");
+        </script>
       <div id="toggles">
-        <button id="toggleBirthdays">Birthdays</button>
-        <button id="toggleEvents">Events</button>
-        <button id="toggleConfirmed">Confirmed Events</button>
+        <button id="toggleBirthdays"><img src="images/birthdays.jpg" alt="birthdays" border="0" /></button>
+        <button id="toggleConfirmed"><img src="images/confirmed.jpg" alt="confirmed" border="0" /></button>
+        <button id="toggleEvents"><img src="images/events.jpg" alt="events" border="0" /></button>
       </div>
         <script type='text/javascript'>
             <?php include("js/calendar.js"); ?>
@@ -41,6 +44,7 @@
             </form>
         </div>
         <div id='calendar'></div>
+        <div id="footer"><img src="images/inner-footer.jpg" alt="footer" border="0" /></div>
         <?php include("includes/dialogs.php"); ?>
         <?php } ?>
     </div>

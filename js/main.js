@@ -1,4 +1,9 @@
 $(document).ready(function() {
+       
+    $("#fakeFB").click(function() {
+        $(".fb_button").click();
+    })
+    
     $("#friendlist").change(function() {
            $("#friends").submit();
     })

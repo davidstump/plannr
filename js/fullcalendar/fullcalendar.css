@@ -192,7 +192,6 @@ html .fc,
 /* gloss effect */
 	
 .fc-state-default .fc-button-effect {
-	position: absolute;
 	top: 50%;
 	left: 0;
 	}
